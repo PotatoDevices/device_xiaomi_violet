@@ -32,5 +32,8 @@ persist.data.df.dev_name=rmnet_usb0
 # Netflix
 ro.netflix.bsp_rev=Q6150-17263-1
 
+# Notch
+ro.potato.has_cutout=true
+
 # SafteyNet prop
 ro.build.fingerprint=google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
