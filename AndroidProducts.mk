@@ -10,4 +10,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     potato_violet-userdebug \
-    potato_violet-user
+    potato_violet-user \
+    potato_violet-eng
