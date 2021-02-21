@@ -25,3 +25,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+BUILD_FINGERPRINT := google/sunfish/sunfish:11/RQ1A.210205.004/7038034:user/release-keys
