@@ -15,6 +15,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/violet/violet-vendor.mk)
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

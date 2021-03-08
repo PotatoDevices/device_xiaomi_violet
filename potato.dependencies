@@ -6,5 +6,10 @@
   {
     "repository"  : "kernel_xiaomi_violet",
     "target_path" : "kernel/xiaomi/violet"
+  },
+  {
+    "repository": "adi8900/vendor_xiaomi_dirac",
+    "target_path": "vendor/xiaomi/dirac",
+    "branch": "dumaloo-release"
   }
 ]
