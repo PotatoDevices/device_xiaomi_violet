@@ -1,2 +1,5 @@
 # Fwk detect
 ro.vendor.qti.va_odm.support=1
+
+#QME
+ro.com.google.ime.kb_pad_port_b=1
