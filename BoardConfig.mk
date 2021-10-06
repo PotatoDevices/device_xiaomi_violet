@@ -59,6 +59,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
 TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 BOARD_RAMDISK_OFFSET := 0x01000000
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Platform
 TARGET_BOARD_PLATFORM := sm6150
@@ -144,6 +145,10 @@ TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
+
+
+# Input
+TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 96
 
 # Media
 TARGET_DISABLED_UBWC := true
