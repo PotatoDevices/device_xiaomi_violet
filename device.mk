@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
     disable_configstore
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Display/Graphics
