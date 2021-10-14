@@ -366,6 +366,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Prebuilt
+LOCAL_KERNEL := device/xiaomi/violet-kernel/Image.gz-dtb
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
+PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/violet-kernel/sm6150/kernel-headers
+
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
