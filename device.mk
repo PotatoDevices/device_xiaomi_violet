@@ -373,6 +373,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/violet-kernel/sm6150/kernel-headers
 
+# QMI 
+$(call inherit-product, external/json-c/Android.configure.mk)
+
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
