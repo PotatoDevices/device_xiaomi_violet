@@ -246,8 +246,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+# PRODUCT_BOOT_JARS += \
+#     org.ifaa.android.manager
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -449,8 +449,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData.vendor \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+# PRODUCT_BOOT_JARS += \
+#     WfdCommon
 
 # Wallpapers
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
